@@ -1,0 +1,263 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f6f8;
+  color: #333;
+}
+
+.navbar {
+  background-color: #456687;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10%;
+  align-items: center;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .logo h1 {
+  color: white;
+  font-weight: 700;
+}
+
+.navbar .nav-items a {
+  text-decoration: none;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navbar .nav-items a:hover {
+  background-color: #3b94d9;
+  color: #fff;
+}
+
+.navbar .nav-items {
+  display: flex;
+  column-gap: 20px;
+}
+
+.flash {
+  padding: 12px 16px;
+  margin: 15px auto;
+  width: 90%;
+  border-radius: 6px;
+  font-weight: 500;
+  font-family: Arial, sans-serif;
+}
+
+
+.flash.success {
+  background-color: #e6fffa;
+  color: #065f46;
+  border: 1px solid #34d399;
+}
+
+
+.flash.error {
+  background-color: #fee2e2;
+  color: #991b1b;
+  border: 1px solid #f87171;
+}
+
+
+.flash.info {
+  background-color: #e0f2fe;
+  color: #075985;
+  border: 1px solid #38bdf8;
+}
+
+.content-area{
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.Legend{
+  font-size: 38px;
+  color: #183156;
+}
+.field {
+  width: 35em;
+  display: flex;
+  flex-direction: column;
+}
+
+.login_page{
+    width: 30em;
+}
+.form-group {
+  margin: 10px;
+}
+
+.form-control-label{
+  font-size: 19px;
+  padding: 4px;
+  color: #0f1f36;
+
+}
+
+.form-control {
+  display: block;
+  width: 95% ;
+  padding: 8px 10px;
+  font-size: 14px;
+  border: 1px solid #7d9bc3;
+  border-radius: 4px;
+}
+
+.form-control:focus {
+  outline: none;
+  border-color: #2563eb;
+}
+
+.error-messages {
+  margin-top: 6px;
+  color: #dc2626;
+  font-size: 13px;
+}
+
+.error-messages span {
+  display: block;
+}
+
+.post-btn {
+  padding: 10px 14px;
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  font-size: 18px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.post-btn:hover {
+  background-color: #1e40af;
+}
+*/
+.additional{
+  font-size: 20px;
+}
+
+/*Remeber Me checkbox*/
+.checkbox-group {
+  margin-top: 6px;
+}
+
+.checkbox-label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  color: #374151;
+  cursor: pointer;
+}
+
+.checkbox-input {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+}
+
+.rounded-circle {
+  border-radius: 50%;
+}
+
+/* ---------- Content Section ---------- */
+.content-section {
+  max-width: 650px;
+  margin: 40px auto;
+  padding: 30px;
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* ---------- Media Object ---------- */
+.media {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 25px;
+}
+
+.media-body {
+  margin-left: 20px;
+}
+.nav-item{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.account-img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border: 3px solid #e0e0e0;
+}
+
+.nav-img{
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  border: 1px solid #e0e0e0;
+}
+
+
+/* ---------- Account Heading ---------- */
+.article-title {
+  font-size: 30px;
+  font-weight: 125px;
+  margin-bottom: 6px;
+  text-decoration: none;
+  color: #121111;
+}
+.article-img{
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border: 2px solid #e0e0e0;
+}
+
+/* ---------- Text Secondary ---------- */
+.text-muted {
+  color: #6c757d;
+  font-size: 14px;
+}
+
+.mr-2{
+  text-decoration: none;
+  color: #38bdf8;
+}
+
+/* File input (Bootstrap-like) */
+.form-control-file {
+  display: block;
+  width: 100%;
+  margin-top: 6px;
+  font-size: 14px;
+  color: #495057;
+}
+
+/* Remove ugly default focus outline */
+.form-control-file:focus {
+  outline: none;
+}
+
+/* Optional: improve cursor */
+.form-control-file {
+  cursor: pointer;
+}
+
+.text-danger {
+  display: block;
+  margin-top: 6px;
+  color: #dc2626;
+  font-size: 13px;
+}

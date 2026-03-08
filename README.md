@@ -6,20 +6,6 @@ The application allows users to register, log in, create posts, and interact wit
 
 ---
 
-## Table of Contents
-
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Project Structure](#project-structure)
-- [Installation and Setup](#installation-and-setup)
-- [Usage](#usage)
-- [Security Considerations](#security-considerations)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
-
----
-
 ## Features
 
 ###  User Authentication
@@ -75,7 +61,7 @@ The application allows users to register, log in, create posts, and interact wit
 ---
 
 ## Project Structure
-
+```
 flask-blog-app
 │
 ├── app/
@@ -92,36 +78,39 @@ flask-blog-app
 ├── run.py              # Application entry point
 ├── .gitignore
 └── README.md
-
+```
 ---
 
-### Installation and Setup
 
-- **1. Clone the repository**
+## Installation and Setup
+
+### 1. Clone the repository
 git clone https://github.com/yashisaini718/flask-blog-app.git
+
 cd flask-blog-app
-- **2. Create a virtual environment**
+### 2. Create a virtual environment
 python -m venv venv
+
 Activate the environment:
-  - **Mac/Linux:** source venv/bin/activate
-  - **Windows:** venv\Scripts\activate
-- **3. Install dependencies**
+ - **Mac/Linux:** source venv/bin/activate
+ - **Windows:** venv\Scripts\activate
+### 3. Install dependencies
 pip install -r requirements.txt
-- **4. Run the application**
+### 4. Run the application
 python run.py
-The application will run on :
-http://127.0.0.1:5000
+
+The application will run on : http://127.0.0.1:5000
 
 ---
 
-### Security Consideration
+## Security Consideration
 
 Sensitive data such as secret keys and credentials are not stored in the repository.
 These values should be placed inside a .env file which is excluded using .gitignore.
 
 ---
 
-### Learning Outcome
+## Learning Outcome
 
 Through this project I explored:
 - Backend web development using Flask

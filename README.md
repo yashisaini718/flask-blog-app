@@ -74,7 +74,6 @@ flask-blog-app
 │   ├── config.py       # Configuration settings
 │   └── models.py       # Database models
 │
-├── instance/           # Instance-specific files
 ├── run.py              # Application entry point
 ├── .gitignore
 └── README.md

@@ -21,9 +21,6 @@ def create_app(config_class=Config):
     mail.init_app(app)
     login_manager.init_app(app)
 
-    with app.app_context():
-        db.create_all()
-
     from app.users.routes import users
     from app.posts.routes import posts
     from app.main.routes import main
@@ -32,5 +29,8 @@ def create_app(config_class=Config):
     app.register_blueprint(posts)
     app.register_blueprint(main)
     app.register_blueprint(errors)
+
+    with app.app_context():
+        db.create_all()
 
     return app
